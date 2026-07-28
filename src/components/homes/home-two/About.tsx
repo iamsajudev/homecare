@@ -2,7 +2,7 @@
 import Image from "next/image"
 import { useState } from "react"
 
-import aboutThumb from "@/assets/img/about/3.webp";
+import aboutThumb from "@/assets/img/main/8.webp";
 
 const tab_title: string[] = ["Our Mission", "Our Vision"];
 
@@ -28,7 +28,7 @@ const About = () => {
                <div className="col-lg-6">
                   <div className="mask-bg-wrap mask-bg-img-3">
                      <div className="thumb">
-                        <Image src={aboutThumb} alt="img" />
+                        <Image className="rounded-5" src={aboutThumb} alt="img" />
                      </div>
                   </div>
                </div>

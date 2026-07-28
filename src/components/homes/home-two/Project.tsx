@@ -71,12 +71,12 @@ const Project = () => {
 
   return (
     <>
-      <div className="project-area half-bg-top pd-top-115">
-        <div className="container">
+      <div className="project-area half-bg-top pd-top-115" style={{ backgroundImage: `url(/assets/img/bg/10.webp)` }}>
+        <div className="container" >
           <div className="row justify-content-center">
             <div className="col-lg-6 col-md-10">
               <div className="section-title style-white text-center">
-                <h5 className="sub-title double-border">Service Areas</h5>
+                <h5 className="sub-title double-border text-white">Service Areas</h5>
                 <h2 className="title">Counties Served</h2>
                 <p className="content">
                   Providing licensed home care services across multiple counties
@@ -101,7 +101,12 @@ const Project = () => {
                         >
                           <i className="fas fa-search-minus"></i>
                         </a>
-                        <Image src={item.img} alt="img" />
+                        <div
+                          className="serve-images"
+                          style={{ width: "400px", height: "250px" }}
+                        >
+                          <Image src={item.img} alt="img" />
+                        </div>
                       </div>
                       <div className="details-wrap">
                         <div className="details-inner">

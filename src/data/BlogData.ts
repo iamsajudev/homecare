@@ -1,8 +1,8 @@
 import { StaticImageData } from "next/image";
 
-import blogThumb_1 from "@/assets/img/blog/5.webp";
-import blogThumb_2 from "@/assets/img/blog/6.webp";
-import blogThumb_3 from "@/assets/img/blog/7.webp";
+import blogThumb_1 from "@/assets/img/main/news-1.jpg";
+import blogThumb_2 from "@/assets/img/main/news-2.jpg";
+import blogThumb_3 from "@/assets/img/main/news-3.jpg";
 import blogThumb_4 from "@/assets/img/blog/10.webp";
 import blogThumb_5 from "@/assets/img/blog/11.webp";
 import blogThumb_6 from "@/assets/img/blog/12.webp";

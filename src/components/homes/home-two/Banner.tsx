@@ -10,7 +10,7 @@ const Banner = () => {
    const { parallaxX, parallaxY } = useParallax(containerRef, 20);
 
    return (
-      <div className="banner-area banner-area-2 bg-relative" style={{ backgroundImage: `url(/assets/img/banner/3.webp)` }} ref={containerRef}>
+      <div className="banner-area banner-area-2 bg-relative" style={{ backgroundImage: `url(/assets/img/main/Slider.jpg)` }} ref={containerRef}>
          <div className="bg-overlay-gradient"></div>
          <motion.div animate={{ x: parallaxX * 2, y: parallaxY * 0.5 }} className="banner-bg-img" style={{ backgroundImage: `url(/assets/img/banner/4.webp)` }}></motion.div>
          <div className="container">

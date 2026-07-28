@@ -33,9 +33,9 @@ const HomeTwo = () => {
          <WorkArea />
          <VideoArea />
          <Testimonial />
-         <Team />
+         {/* <Team /> */}
          <Blog />
-         <Brand />
+         {/* <Brand /> */}
          <FooterOne />
       </>
    )

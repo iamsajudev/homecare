@@ -3928,7 +3928,14 @@ ul {
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
+.single-service-inner:hover .details-hover-wrap {
+  visibility: visible;
+  opacity: 1;
+}
 
+.single-service-inner:hover .details-hover-wrap .details-hover {
+  margin-top: 0;
+}
 .single-service-inner.style-white {
   background: rgba(3, 11, 24, 0.6);
 }
@@ -3961,14 +3968,7 @@ ul {
   color: #fff;
 }
 
-.single-service-inner:hover .details-hover-wrap {
-  visibility: visible;
-  opacity: 1;
-}
 
-.single-service-inner:hover .details-hover-wrap .details-hover {
-  margin-top: 0;
-}
 
 .single-service-inner.style-2 {
   padding: 40px 30px 85px 30px;
@@ -4899,6 +4899,7 @@ ul {
 .single-project-inner .thumb img {
   -webkit-transition: 0.7s;
   transition: 0.7s;
+  width: 150px;
 }
 
 .single-project-inner .thumb .icon {

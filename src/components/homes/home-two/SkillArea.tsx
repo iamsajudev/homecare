@@ -1,9 +1,9 @@
 import Skillbar from '@/components/common/Skillbar';
 import Image from 'next/image';
 
-import SkillImg_1 from '@/assets/img/other/4.webp';
-import SkillImg_2 from '@/assets/img/other/5.webp';
-import SkillImg_3 from '@/assets/img/other/6.webp';
+import SkillImg_1 from '@/assets/img/main/11.webp';
+import SkillImg_2 from '@/assets/img/main/5.jpg';
+import SkillImg_3 from '@/assets/img/main/4.jpg';
 
 const SkillArea = () => {
    return (
