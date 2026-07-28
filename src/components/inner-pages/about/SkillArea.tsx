@@ -5,7 +5,7 @@ import skillImg_1 from "@/assets/img/about/1sm.webp"
 import skillImg_2 from "@/assets/img/about/1s.webp"
 import skillImg_3 from "@/assets/img/about/6.webp"
 
-const SkillArea = () => {
+const SkillArea = ({style}:any) => {
    return (
       <div className="skill-area bg-relative pd-bottom-100">
          <div className="container">
